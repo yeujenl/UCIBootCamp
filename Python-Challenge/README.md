@@ -2,7 +2,7 @@
 
 I did not coopearte with other students.
 
-Resources used:</br>
+<b>Resources used:</b></br>
 Importing csv as list:</br>
 https://linuxhint.com/import-csv-to-list-python/
 
