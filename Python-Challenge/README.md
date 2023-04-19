@@ -20,4 +20,3 @@ https://datagy.io/python-get-dictionary-key-with-max-value/
 
 Write list output as txt file
 https://www.scaler.com/topics/python-write-list-to-file/
-write list output as txt file
