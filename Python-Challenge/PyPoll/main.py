@@ -81,7 +81,7 @@ def percentage_calculation (candidate_vote_count):
 # Pull key associated with the highest candidate vote value
 max_vote_candidate = max(candidates_dictionary, key = candidates_dictionary.get)
 
-# Print commands to oelection result analysis
+# Print commands to election result analysis
 # Add output to print_result list for txt file printing
 print(f"Election Results")
 print_result.append(f"Election Results")
@@ -101,7 +101,7 @@ for row in candidate_list:
     # Add output to print_result list for txt file printing
     print_result.append(f"{row}: {candidates_dictionary[row][1]}% ({candidates_dictionary[row][0]})")
 
-# Print commands to oelection result analysis
+# Print commands to election result analysis
 # Add output to print_result list for txt file printing
 print(f"-------------------------")
 print_result.append(f"-------------------------")
