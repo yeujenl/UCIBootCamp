@@ -1,27 +1,22 @@
-https://www.tutorialspoint.com/How-to-use-seek-method-to-reset-a-file-read-write-position-in-Python
-Resetting csv reader position
+# Module 3 Python Challenge
 
+I did not coopearte with other students.
+
+<b>Resources used:</b></br>
+Importing csv as list:</br>
 https://linuxhint.com/import-csv-to-list-python/
-Importing csv as list
 
-https://blog.finxter.com/convert-csv-to-dictionary-in-python/
-Converting csv to dictionary
-
-
+Rounding to 2 decimal places:</br>
 https://www.tutorialspoint.com/How-to-round-down-to-2-decimals-a-float-using-Python
-Rounding to 2 decimal places
 
+Max function for python:</br>
 https://www.geeksforgeeks.org/python-max-function/#
-max function for python
 
-https://stackoverflow.com/questions/36571560/directing-print-output-to-a-txt-file
-Pringint string to text file
-
+Updating dictionary:</br>
 https://www.programiz.com/python-programming/methods/dictionary/update
-Updating dictionary
 
+Finding the max value in dictionary:</br>
 https://datagy.io/python-get-dictionary-key-with-max-value/
-max value in dictionary
 
+Write list output as txt file:</br>
 https://www.scaler.com/topics/python-write-list-to-file/
-write list output as txt file
