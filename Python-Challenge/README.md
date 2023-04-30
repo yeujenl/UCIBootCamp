@@ -1,6 +1,6 @@
 # Module 3 Python Challenge
 
-I did not coopearte with other students.
+I did not cooperate with other students.
 
 <b>Resources used:</b></br>
 Importing csv as list:</br>

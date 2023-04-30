@@ -1,6 +1,6 @@
 # Module 5 Visualization Challenge
 
-I did not coopearte with other students.</br>
+I did not cooperate with other students.</br>
 
 <b>Resources used:</b></br>
 Finding duplicate rows on all or selected columns:</br>
