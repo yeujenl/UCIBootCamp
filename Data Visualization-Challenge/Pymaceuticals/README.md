@@ -15,11 +15,11 @@ https://www.geeksforgeeks.org/drop-rows-from-the-dataframe-based-on-certain-cond
 Matplotlib colorlist:</br>
 https://matplotlib.org/stable/gallery/color/named_colors.html
 
-Pandas Series to list:</br>
-https://www.machinelearningplus.com/pandas/pandas-series-to-list/
+Dictionary Iteration:</br>
+https://www.freecodecamp.org/news/dictionary-iteration-in-python/
 
 Multiple box-plots in same graph:</br>
 https://stackoverflow.com/questions/52273543/creating-multiple-boxplots-on-the-same-graph-from-a-dictionary
 
-Boxplot customization</br>
+Boxplot customization:</br>
 https://matplotlib.org/stable/gallery/statistics/boxplot.html
