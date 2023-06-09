@@ -27,7 +27,7 @@ st = Base.classes.station
 query_date = dt.date(2017, 8, 23) - dt.timedelta(days=365)
 
 # Create our session (link) from Python to the DB
-session = Session(engine)
+
 
 #################################################
 # Flask Setup
@@ -54,6 +54,7 @@ def welcome():
 # Route for precipitation
 @app.route("/api/v1.0/precipitation")
 def precipitation():
+    session = Session(engine)
 
     # Query returning date and precipitation date from measurement table
     # Filtered for date occuring on and after query date  
@@ -85,6 +86,7 @@ def precipitation():
 # Route for stations
 @app.route("/api/v1.0/stations")
 def station_api():
+    session = Session(engine)
 
     # Query returning staion number and station name date from station table
     station_results = session.query(st.station, st.name).all()
@@ -114,6 +116,7 @@ def station_api():
 # Route for tobs
 @app.route("/api/v1.0/tobs")
 def tobs_api():
+    session = Session(engine)
 
     # Query returning date and tobs date from measurement table
     # Filtered for date occuring on and after query date and highest traffic station  
@@ -146,6 +149,7 @@ def tobs_api():
 # Route for start date
 @app.route("/api/v1.0/<start>")
 def start_date(start):
+    session = Session(engine)
 
     # String format the input date
     date_str = str(start)
@@ -180,6 +184,7 @@ def start_date(start):
 # Route for start date and end date
 @app.route("/api/v1.0/<start>/<end>")
 def start_end_date(start, end):
+    session = Session(engine)
     # Template to format date_str
     format_str = "%Y-%m-%d"
 
