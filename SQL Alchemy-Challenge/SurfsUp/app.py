@@ -24,7 +24,7 @@ Base.prepare(autoload_with=engine)
 mt = Base.classes.measurement
 st = Base.classes.station
 
-query_date = dt.date(2017, 8, 23) - dt.timedelta(days=365)
+query_date = dt.date(2017, 8, 23) - dt.timedelta(days=365) 
 
 # Create our session (link) from Python to the DB
 
