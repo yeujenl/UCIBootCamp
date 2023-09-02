@@ -23,4 +23,4 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * The model has a high accuracy of 0.99, precision and recall for both 0 and 1 are higher than 0.85, thus the model is a fairly accurate model.
-* While it appears the model may be biased towards 0 (True) results, the balanced accuracy score is 0.94, so I believe the machine learning model can still be recommended.
+* While it appears the model may be biased towards 0 (False) results, the balanced accuracy score is 0.94, so I believe the machine learning model can still be recommended.
